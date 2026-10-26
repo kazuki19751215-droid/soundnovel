@@ -550,6 +550,7 @@ button:focus-visible { outline: 2px solid var(--moon); outline-offset: 2px; }
   </div>
 
   <div id="ctrl">
+    <button id="bMenu" type="button" aria-label="作品一覧へ戻る" onpointerdown="event.stopPropagation()" ontouchstart="event.stopPropagation()" onclick="event.stopPropagation();location.href='./index.html'">作品一覧</button>
     <button id="bAuto" type="button" aria-pressed="false">オート</button>
     <button id="bSound" type="button" aria-pressed="true">音あり</button>
     <button id="bFull" type="button" hidden>全画面</button>
